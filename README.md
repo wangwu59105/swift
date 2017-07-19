@@ -7,8 +7,8 @@
 [摄像头](https://github.com/wangwu59105/swift#%e4%b8%89摄像头)、[网络请求](https://github.com/wangwu59105/swift#%e5%9b%9b网络请求)、
 [图片处理](https://github.com/wangwu59105/swift#%e4%ba%94图片处理)、[文本](https://github.com/wangwu59105/swift#%e5%85%ad文本)、
 [数据解析](https://github.com/wangwu59105/swift#%e4%b8%83数据解析)、
-[UI界面布局](https://github.com/wangwu59105/swift#%e5%85%ab UI界面布局)、
-[加载框，弹窗](https://github.com/wangwu59105/swift#%e4%b9%9d 加载框，弹窗)、
+[UI界面布局](https://github.com/wangwu59105/swift#%e5%85%ab界面布局)、
+[加载框，弹窗](https://github.com/wangwu59105/swift#%e4%b9%9d加载框)、
 [其它扩展](https://github.com/wangwu59105/swift#%e5%8d%81其它扩展)
 
 
@@ -185,7 +185,7 @@ if let userName = json[0]["user"]["name"].string {
 ```
 项目地址：https://github.com/SwiftyJSON/SwiftyJSON
 
-### 八、UI界面布局
+### 八、界面布局
 1.SnapKit
 简化页面ui组件布局，适用喜欢代码写布局的开发人员，前期我也喜欢用storybroad写页面，
 后来发现代码写页面来的直接，快捷。cell文件还是喜欢用xib写。强烈推荐代码布局开发人员，
