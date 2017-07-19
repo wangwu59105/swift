@@ -12,7 +12,7 @@
 [其它扩展](https://github.com/wangwu59105/swift#%e5%8d%81其它扩展)
 </br>
 [Swift 第二章节完整APP]</br>
-[高仿系列](https://github.com/wangwu59105/swift#%E4%B8%80高仿)
+[高仿系列](https://github.com/wangwu59105/swift#%E4%B8%80高仿)、[线上开源](https://github.com/wangwu59105/swift#%e4%ba%8c线上开源)
 
 ## 工具类
 ### 一、时间
@@ -235,6 +235,21 @@ self.view.makeToast(message: "Single text toast",
 ```
 项目地址：https://github.com/abdullahselek/ASToast
 
+3.Popover
+Popover工具类，主要代码就一个类，对view的扩展，画出来的。view的上下弹出图层
+</br>
+![Popover](https://raw.githubusercontent.com/corin8823/Popover/master/ScreenShots/Screenshot.gif)
+</br>
+
+```swift
+let startPoint = CGPoint(x: self.view.frame.width - 60, y: 55)
+let aView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 180))
+let popover = Popover()
+popover.show(aView, point: startPoint)
+```
+项目地址：https://github.com/corin8823/Popover
+
+
 ### 十、其它扩展
 1.TimedSilver
 这个工具类，没有多少人用到，个人开发上传上去的，对应的开源完整的项目
@@ -317,3 +332,5 @@ extension UIView {
 代码编写布局，可以熟悉很多第三方model的使用，SnapKit的布局，熟悉功能组件编写
 ```
 项目地址：https://github.com/hilen/TSWeChat
+
+### 二、线上开源
