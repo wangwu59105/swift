@@ -282,7 +282,8 @@ extension UIView {
 ### 一、高仿
 1.高仿爱鲜蜂 - Swift2.0
 </br>
-![image](http://ww3.sinaimg.cn/mw690/0068uRu1gw1f0n7ikeaxmg307u0dx7wp.gif)
+</br>
+![image](http://ww1.sinaimg.cn/mw690/0068uRu1gw1f0n7ipld9dg307u0dx1l2.gif)
 </br>
 - 使用Swift2.0
 - 编译器为Xcode7.0.1正式版,请用7.0以上的Xcode打开工程
@@ -295,6 +296,7 @@ extension UIView {
 
 
 2.TSWeChat Swift3.0 高仿微信
+</br>
 </br>
 ![image](https://github.com/hilen/TSWeChat/blob/master/images/preview1.gif)
 </br>
