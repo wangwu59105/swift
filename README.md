@@ -224,9 +224,8 @@ class MyViewController: UIViewController {
 
 2.ASToast
 Toast工具类，主要代码就一个类，对view的扩展
-
 </br>
-![image_toast](https://github.com/abdullahselek/ASToast/blob/master/images/astoast_image_title_text_toast.png)
+![ASToast](https://raw.githubusercontent.com/abdullahselek/ASToast/master/images/astoast_image_title_text_toast.png)
 </br>
 
 ```
