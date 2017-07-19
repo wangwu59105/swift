@@ -10,7 +10,9 @@
 [UI界面布局](https://github.com/wangwu59105/swift#%e5%85%ab界面布局)、
 [加载框，弹窗](https://github.com/wangwu59105/swift#%e4%b9%9d加载框弹窗)、
 [其它扩展](https://github.com/wangwu59105/swift#%e5%8d%81其它扩展)
-
+</br>
+[Swift 第二章节完整APP]</br>
+[高仿系列](https://github.com/wangwu59105/swift#%E4%B8%80高仿)
 
 ## 工具类
 ### 一、时间
@@ -275,3 +277,28 @@ extension UIView {
 }
 ```
 项目地址：https://github.com/wangwu59105/swift/blob/master/CommonExtension.swift
+
+## 完整的APP
+### 一、高仿
+1.高仿爱鲜蜂 - Swift2.0
+- 使用Swift2.0
+- 编译器为Xcode7.0.1正式版,请用7.0以上的Xcode打开工程
+- 直接打开xcworkspace运行工程即可
+```
+使用系统原生布局，代码编写，对初学很有帮助
+```
+</br>
+![效果图1](http://ww3.sinaimg.cn/mw690/0068uRu1gw1f0n7ikeaxmg307u0dx7wp.gif)
+</br>
+项目地址：https://github.com/ZhongTaoTian/LoveFreshBeen
+</br>
+2.TSWeChat Swift3.0 高仿微信
+- 使用Swift3.0
+- Xcode 8.1+正式版,iOS 8.0+ / Mac OS X 10.9+ Cocoapods 1.1.1 +
+```
+代码编写布局，可以熟悉很多第三方model的使用，SnapKit的布局，熟悉功能组件编写
+```
+</br>
+![效果图1](https://github.com/hilen/TSWeChat/blob/master/images/preview1.gif)
+</br>
+项目地址：https://github.com/hilen/TSWeChat
