@@ -288,10 +288,12 @@ extension UIView {
 使用系统原生布局，代码编写，对初学很有帮助
 ```
 </br>
-![效果图1](http://ww3.sinaimg.cn/mw690/0068uRu1gw1f0n7ikeaxmg307u0dx7wp.gif)
+![高仿爱鲜蜂](http://ww3.sinaimg.cn/mw690/0068uRu1gw1f0n7ikeaxmg307u0dx7wp.gif)
 </br>
 项目地址：https://github.com/ZhongTaoTian/LoveFreshBeen
 </br>
+
+
 2.TSWeChat Swift3.0 高仿微信
 - 使用Swift3.0
 - Xcode 8.1+正式版,iOS 8.0+ / Mac OS X 10.9+ Cocoapods 1.1.1 +
@@ -299,6 +301,6 @@ extension UIView {
 代码编写布局，可以熟悉很多第三方model的使用，SnapKit的布局，熟悉功能组件编写
 ```
 </br>
-![效果图1](https://github.com/hilen/TSWeChat/blob/master/images/preview1.gif)
+![TSWeChat](https://github.com/hilen/TSWeChat/blob/master/images/preview1.gif)
 </br>
 项目地址：https://github.com/hilen/TSWeChat
