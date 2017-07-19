@@ -126,3 +126,33 @@ TSWeChat中使用到的，对很多组件进行的扩展，很强大，个人喜
     ......
 ```
 项目地址：https://github.com/hilen/TimedSilver
+
+2.CommonExtension.swift
+自己项目中使用频率较高的扩展，系统设备的view的一些常量
+```swift
+extension UIView {
+    /// X值
+    var x: CGFloat {
+        return self.frame.origin.x
+    }
+    /// Y值
+    var y: CGFloat {
+        return self.frame.origin.y
+    }
+    /// 宽度
+    var width: CGFloat {
+        return self.frame.size.width
+    }
+    ///高度
+    var height: CGFloat {
+        return self.frame.size.height
+    }
+    var size: CGSize {
+        return self.frame.size
+    }
+    var point: CGPoint {
+        return self.frame.origin
+    }
+}
+```
+项目地址：https://github.com/wangwu59105/swift/blob/master/CommonExtension.swift
