@@ -264,12 +264,14 @@ SwiftEventBus.onBackgroundThread(target, name:"someEventName") { result in
     // API Access
 }
 SwiftEventBus.post("someEventName")
-......
 ```swift
+
 项目地址：https://github.com/cesarferreira/SwiftEventBus
 
 
 ### 十一、数据存储
+
+</br></br>
 
 ### 十二、其它扩展
 1.TimedSilver
@@ -277,7 +279,7 @@ SwiftEventBus.post("someEventName")
 TSWeChat中使用到的，对很多组件进行的扩展，很强大，个人喜欢使用tabView
 和collectionView的对应扩展。如果想了解的可以参考TSWeChat
 
-```
+```swift
 ├── Foundation
 │   ├── Bundle+TSExtension.swift
 │   ├── Data+TSExtension.swift
