@@ -66,6 +66,13 @@ imageView.kf.setImage(with: url)
 ```
 项目地址：https://github.com/onevcat/Kingfisher
 
+2.BSImagePicker
+别人写的图片选择器工具，继承方便，使用简洁，如果没有太多页面要求，可以
+直接使用
+![alt text](https://cloud.githubusercontent.com/assets/4034956/15001931/254805de-119c-11e6-9f68-d815ccc712cd.gif "Demo gif")
+项目地址：https://github.com/mikaoj/BSImagePicker
+
+
 ### 数据解析
 1.SwiftyJSON
 让json的解析变得更加简单,快捷
