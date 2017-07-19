@@ -8,7 +8,7 @@
 [图片处理](https://github.com/wangwu59105/swift#%e4%ba%94图片处理)、[文本](https://github.com/wangwu59105/swift#%e5%85%ad文本)、
 [数据解析](https://github.com/wangwu59105/swift#%e4%b8%83数据解析)、
 [UI界面布局](https://github.com/wangwu59105/swift#%e5%85%ab界面布局)、
-[加载框，弹窗](https://github.com/wangwu59105/swift#%e4%b9%9d%e3%80%81%e5%8a%a0%e8%bd%bd%e6%a1%86%ef%bc%8c%e5%bc%b9%e7%aa%97)、
+[加载框，弹窗](https://github.com/wangwu59105/swift#%e4%b9%9d加载框弹窗)、
 [其它扩展](https://github.com/wangwu59105/swift#%e5%8d%81其它扩展)
 
 
@@ -211,7 +211,7 @@ class MyViewController: UIViewController {
 ```
 项目地址：https://github.com/SnapKit/SnapKit
 
-### 九、加载框，弹窗
+### 九、加载框弹窗
 1.SVProgressHUD
 数据加载框，使用很宽泛的oc类库</br>
 ![SVProgressHUD](http://f.cl.ly/items/2G1F1Z0M0k0h2U3V1p39/SVProgressHUD.gif)
