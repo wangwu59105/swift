@@ -8,7 +8,7 @@
 [图片处理](https://github.com/wangwu59105/swift#%e4%ba%94图片处理)、[文本](https://github.com/wangwu59105/swift#%e5%85%ad文本)、
 [数据解析](https://github.com/wangwu59105/swift#%e4%b8%83数据解析)、
 [UI界面布局](https://github.com/wangwu59105/swift#%e5%85%ab界面布局)、
-[加载框，弹窗](https://github.com/wangwu59105/swift#%e4%b9%9d加载框)、
+[加载框，弹窗](https://github.com/wangwu59105/swift#%e4%b9%9d%e3%80%81%e5%8a%a0%e8%bd%bd%e6%a1%86%ef%bc%8c%e5%bc%b9%e7%aa%97)、
 [其它扩展](https://github.com/wangwu59105/swift#%e5%8d%81其它扩展)
 
 
