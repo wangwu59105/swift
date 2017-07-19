@@ -255,7 +255,7 @@ popover.show(aView, point: startPoint)
 ### 十、广播通知
 1.EventBus
 简单易用的通知类工具，ui 线程之间的通讯。其实个人感觉系统通知也很简洁
-```
+```swift
 SwiftEventBus.onMainThread(target, name: "someEventName") { result in
     // UI thread
 }
@@ -264,7 +264,7 @@ SwiftEventBus.onBackgroundThread(target, name:"someEventName") { result in
     // API Access
 }
 SwiftEventBus.post("someEventName")
-```swift
+```
 
 项目地址：https://github.com/cesarferreira/SwiftEventBus
 
@@ -279,7 +279,7 @@ SwiftEventBus.post("someEventName")
 TSWeChat中使用到的，对很多组件进行的扩展，很强大，个人喜欢使用tabView
 和collectionView的对应扩展。如果想了解的可以参考TSWeChat
 
-```swift
+```
 ├── Foundation
 │   ├── Bundle+TSExtension.swift
 │   ├── Data+TSExtension.swift
