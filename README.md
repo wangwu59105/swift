@@ -88,6 +88,81 @@ bs_presentImagePickerController(vc, animated: true,
 </br>
 项目地址：https://github.com/mikaoj/BSImagePicker
 
+### 文本
+1.YYText
+功能强大的 iOS 富文本编辑与显示框架。
+(该项目是 YYKit 组件之一)
+</br>
+oc库，swift直接引用使用
+<table>
+  <thead>
+    <tr>
+      <th>Demo</th>
+      <th>Attribute Name</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://raw.github.com/ibireme/YYText/master/Attributes/YYText Extended/YYTextAttachment.gif" width="200"></td>
+      <td>TextAttachment</td>
+      <td>YYTextAttachment</td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.github.com/ibireme/YYText/master/Attributes/YYText Extended/YYTextHighlight.gif" width="200"></td>
+      <td>TextHighlight</td>
+      <td>YYTextHighlight</td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.github.com/ibireme/YYText/master/Attributes/YYText Extended/YYTextBinding.gif" width="200"></td>
+      <td>TextBinding</td>
+      <td>YYTextBinding</td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.github.com/ibireme/YYText/master/Attributes/YYText Extended/YYTextShadow.png" width="200"></td>
+      <td>TextShadow<br/>TextInnerShadow</td>
+      <td>YYTextShadow</td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.github.com/ibireme/YYText/master/Attributes/YYText Extended/YYTextBorder.png" width="200"></td>
+      <td>TextBorder</td>
+      <td>YYTextBorder</td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.github.com/ibireme/YYText/master/Attributes/YYText Extended/YYTextBackgroundBorder.png" width="200"></td>
+      <td>TextBackgroundBorder</td>
+      <td>YYTextBorder</td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.github.com/ibireme/YYText/master/Attributes/YYText Extended/YYTextBlockBorder.png" width="200"></td>
+      <td>TextBlockBorder</td>
+      <td>YYTextBorder</td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.github.com/ibireme/YYText/master/Attributes/CoreText and TextKit/Obliqueness.png" width="200"></td>
+      <td>TextGlyphTransform</td>
+      <td> NSValue(CGAffineTransform)</td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.github.com/ibireme/YYText/master/Attributes/CoreText and TextKit/Underline.png" width="200"></td>
+      <td>TextUnderline</td>
+      <td>YYTextDecoration</td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.github.com/ibireme/YYText/master/Attributes/CoreText and TextKit/Strikethrough.png" width="200"></td>
+      <td>TextStrickthrough</td>
+      <td>YYTextDecoration</td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.github.com/ibireme/YYText/master/Attributes/YYText Extended/YYTextBackedString.png" width="200"></td>
+      <td>TextBackedString</td>
+      <td>YYTextBackedString</td>
+    </tr>
+  </tbody>
+</table>
+
+</br>
+项目地址：https://github.com/ibireme/YYText
 
 ### 数据解析
 1.SwiftyJSON
