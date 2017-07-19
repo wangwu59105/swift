@@ -70,6 +70,7 @@ imageView.kf.setImage(with: url)
 别人写的图片选择器工具，继承方便，使用简洁，如果没有太多页面要求，可以
 直接使用
 ![alt text](https://cloud.githubusercontent.com/assets/4034956/15001931/254805de-119c-11e6-9f68-d815ccc712cd.gif "Demo gif")
+</br>
 项目地址：https://github.com/mikaoj/BSImagePicker
 
 
