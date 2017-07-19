@@ -9,7 +9,9 @@
 [数据解析](https://github.com/wangwu59105/swift#%e4%b8%83数据解析)、
 [UI界面布局](https://github.com/wangwu59105/swift#%e5%85%ab界面布局)、
 [加载框，弹窗](https://github.com/wangwu59105/swift#%e4%b9%9d加载框弹窗)、
-[其它扩展](https://github.com/wangwu59105/swift#%e5%8d%81其它扩展)
+[广播通知](https://github.com/wangwu59105/swift#%e5%8d%81广播通知)、
+[数据存储](https://github.com/wangwu59105/swift#%e5%8d%81%e4%b8%80数据存储)、
+[其它扩展](https://github.com/wangwu59105/swift#%e5%8d%81%e4%ba%8c其它扩展)
 </br>
 [Swift 第二章节完整APP]</br>
 [高仿系列](https://github.com/wangwu59105/swift#%E4%B8%80高仿)、[线上开源](https://github.com/wangwu59105/swift#%e4%ba%8c线上开源)
@@ -250,7 +252,26 @@ popover.show(aView, point: startPoint)
 项目地址：https://github.com/corin8823/Popover
 
 
-### 十、其它扩展
+### 十、广播通知
+1.EventBus
+简单易用的通知类工具，ui 线程之间的通讯。其实个人感觉系统通知也很简洁
+```
+SwiftEventBus.onMainThread(target, name: "someEventName") { result in
+    // UI thread
+}
+// or
+SwiftEventBus.onBackgroundThread(target, name:"someEventName") { result in
+    // API Access
+}
+SwiftEventBus.post("someEventName")
+......
+```swift
+项目地址：https://github.com/cesarferreira/SwiftEventBus
+
+
+### 十一、数据存储
+
+### 十二、其它扩展
 1.TimedSilver
 这个工具类，没有多少人用到，个人开发上传上去的，对应的开源完整的项目
 TSWeChat中使用到的，对很多组件进行的扩展，很强大，个人喜欢使用tabView
