@@ -226,8 +226,9 @@ class MyViewController: UIViewController {
 Toast工具类，主要代码就一个类，对view的扩展
 
 </br>
-![image](https://github.com/abdullahselek/ASToast/blob/master/images/astoast_image_title_text_toast.png)
+![image_toast](https://github.com/abdullahselek/ASToast/blob/master/images/astoast_image_title_text_toast.png)
 </br>
+
 ```
 self.view.makeToast(message: "Single text toast",
 					backgroundColor: nil,
