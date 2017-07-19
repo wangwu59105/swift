@@ -283,7 +283,7 @@ extension UIView {
 1.高仿爱鲜蜂 - Swift2.0
 </br>
 </br>
-![image](http://ww1.sinaimg.cn/mw690/0068uRu1gw1f0n7ipld9dg307u0dx1l2.gif)
+![image](https://camo.githubusercontent.com/37f325f585f91a4fe01efad595c7d1ea795632a9/687474703a2f2f7777322e73696e61696d672e636e2f6d773639302f303036387552753167773166306e376974696f676f67333037753064786e70672e676966)
 </br>
 - 使用Swift2.0
 - 编译器为Xcode7.0.1正式版,请用7.0以上的Xcode打开工程
