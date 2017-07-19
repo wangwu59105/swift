@@ -201,6 +201,15 @@ class MyViewController: UIViewController {
 ```
 项目地址：https://github.com/SnapKit/SnapKit
 
+### 加载框，弹窗
+1.SVProgressHUD
+数据加载框，使用很宽泛的oc类库
+![SVProgressHUD](http://f.cl.ly/items/2G1F1Z0M0k0h2U3V1p39/SVProgressHUD.gif)
+</br>
+项目地址：https://github.com/SVProgressHUD/SVProgressHUD
+
+
+
 ### 其它
 1.TimedSilver
 这个工具类，没有多少人用到，个人开发上传上去的，对应的开源完整的项目
