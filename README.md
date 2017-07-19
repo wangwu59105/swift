@@ -3,7 +3,11 @@
 在自己项目中使用到或者日常接触到的的swift类库，收录最简单，易用，稳定的，方便快速，高效开发
 
 [Swift 第一章节工具库篇]</br>
-[时间](https://github.com/wangwu59105/swift#%E4%B8%80时间)
+[时间](https://github.com/wangwu59105/swift#%E4%B8%80)、[音频](https://github.com/wangwu59105/swift#%e4%ba%8c)、
+[摄像头](https://github.com/wangwu59105/swift#%e4%b8%89)、[网络请求](https://github.com/wangwu59105/swift#%e5%9b%9b)
+[图片处理](https://github.com/wangwu59105/swift#%e4%ba%94)、[文本](https://github.com/wangwu59105/swift#%e5%85%ad)、
+[数据解析](https://github.com/wangwu59105/swift#%e4%b8%83)、[UI界面布局](https://github.com/wangwu59105/swift#%e5%85%ab)
+[其它扩展](https://github.com/wangwu59105/swift#%e5%8d%81)
 
 
 ## 工具类
@@ -22,7 +26,7 @@ Timer.after(1.minute) {
 ```
 项目地址:https://github.com/radex/SwiftyTimer
 
-### 音频
+### 二、音频
 1.SwiftySound
 播放音频的工具类，简单易用,稳定</br>
 ```swift
@@ -34,7 +38,7 @@ Sound.play(url: fileURL)
 ```
 项目地址：https://github.com/adamcichy/SwiftySound
 
-### 摄像头
+###  三、摄像头
 1.swiftScan
 二维码 各种码识别，生成，界面效果</br>
 ![image](https://github.com/MxABC/swiftScan/blob/master/ScreenShots/page1.jpg)
@@ -42,7 +46,7 @@ Sound.play(url: fileURL)
 </br>
 项目地址：https://github.com/MxABC/swiftScan
 
-### 网络请求
+### 四、网络请求
 1.Alamofire
 强大的网络请求类库，可以结合swiftJson使用，方便易用，支持各种请求方式</br>
 ```swift
@@ -61,7 +65,7 @@ public enum HTTPMethod: String {
 项目地址：https://github.com/Alamofire/Alamofire
 
 
-### 图片处理
+### 五、图片处理
 1.Kingfisher
 网络图片加载神器，轻量级继承，改写UIimageView，使用简单，功能强大
 ```swift
@@ -92,7 +96,7 @@ bs_presentImagePickerController(vc, animated: true,
 </br>
 项目地址：https://github.com/mikaoj/BSImagePicker
 
-### 文本
+### 六、文本
 1.YYText
 功能强大的 iOS 富文本编辑与显示框架。
 (该项目是 YYKit 组件之一)
@@ -168,7 +172,7 @@ oc库，swift直接引用使用
 </br>
 项目地址：https://github.com/ibireme/YYText
 
-### 数据解析
+### 七、数据解析
 1.SwiftyJSON
 让json的解析变得更加简单,快捷
 ```swift
@@ -179,7 +183,7 @@ if let userName = json[0]["user"]["name"].string {
 ```
 项目地址：https://github.com/SwiftyJSON/SwiftyJSON
 
-### UI界面布局
+### 八、UI界面布局
 1.SnapKit
 简化页面ui组件布局，适用喜欢代码写布局的开发人员，前期我也喜欢用storybroad写页面，
 后来发现代码写页面来的直接，快捷。cell文件还是喜欢用xib写。强烈推荐代码布局开发人员，
@@ -205,7 +209,7 @@ class MyViewController: UIViewController {
 ```
 项目地址：https://github.com/SnapKit/SnapKit
 
-### 加载框，弹窗
+### 九、加载框，弹窗
 1.SVProgressHUD
 数据加载框，使用很宽泛的oc类库</br>
 ![SVProgressHUD](http://f.cl.ly/items/2G1F1Z0M0k0h2U3V1p39/SVProgressHUD.gif)
@@ -216,7 +220,7 @@ class MyViewController: UIViewController {
 
 
 
-### 其它
+### 十、其它
 1.TimedSilver
 这个工具类，没有多少人用到，个人开发上传上去的，对应的开源完整的项目
 TSWeChat中使用到的，对很多组件进行的扩展，很强大，个人喜欢使用tabView
