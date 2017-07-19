@@ -69,6 +69,21 @@ imageView.kf.setImage(with: url)
 2.BSImagePicker
 别人写的图片选择器工具，继承方便，使用简洁，如果没有太多页面要求，可以
 直接使用
+```swift
+let vc = BSImagePickerViewController()
+bs_presentImagePickerController(vc, animated: true,
+    select: { (asset: PHAsset) -> Void in
+      // User selected an asset.
+      // Do something with it, start upload perhaps?
+    }, deselect: { (asset: PHAsset) -> Void in
+      // User deselected an assets.
+      // Do something, cancel upload?
+    }, cancel: { (assets: [PHAsset]) -> Void in
+      // User cancelled. And this where the assets currently selected.
+    }, finish: { (assets: [PHAsset]) -> Void in
+      // User finished with these assets
+}, completion: nil)
+```
 ![alt text](https://cloud.githubusercontent.com/assets/4034956/15001931/254805de-119c-11e6-9f68-d815ccc712cd.gif "Demo gif")
 </br>
 项目地址：https://github.com/mikaoj/BSImagePicker
