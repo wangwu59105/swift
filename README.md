@@ -206,6 +206,8 @@ class MyViewController: UIViewController {
 数据加载框，使用很宽泛的oc类库
 ![SVProgressHUD](http://f.cl.ly/items/2G1F1Z0M0k0h2U3V1p39/SVProgressHUD.gif)
 </br>
+方便Swift开发使用请引入https://github.com/wangwu59105/swift/blob/master/SVProgressHUD.swift
+这个类配套使用
 项目地址：https://github.com/SVProgressHUD/SVProgressHUD
 
 
