@@ -2,6 +2,12 @@
 
 在自己项目中使用到或者日常接触到的的swift类库，收录最简单，易用，稳定的，方便快速，高效开发
 
+```
+最近android项目有点忙，更新会放慢，接下来一天更新一个最火通用组件，亲测后提交
+以组件为主，助理swift开发者
+
+```
+
 [Swift 第一章节工具库篇]</br>
 [时间](https://github.com/wangwu59105/swift#%E4%B8%80时间)、[音频](https://github.com/wangwu59105/swift#%e4%ba%8c音频)、
 [摄像头](https://github.com/wangwu59105/swift#%e4%b8%89摄像头)、[网络请求](https://github.com/wangwu59105/swift#%e5%9b%9b网络请求)、
@@ -15,6 +21,9 @@
 </br>
 [Swift 第二章节完整APP]</br>
 [高仿系列](https://github.com/wangwu59105/swift#%E4%B8%80高仿)、[线上开源](https://github.com/wangwu59105/swift#%e4%ba%8c线上开源)
+
+[Swift 第三章个性化组建]</br>
+[嵌套滑动](https://github.com/wangwu59105/swift#%E4%B8%80嵌套滑动)、[下拉刷新](https://github.com/wangwu59105/swift#%E4%B8%80下拉刷新)
 
 ## 工具类
 ### 一、时间
@@ -357,3 +366,19 @@ extension UIView {
 项目地址：https://github.com/hilen/TSWeChat
 
 ### 二、线上开源
+
+
+## 功能组建
+### 一、嵌套滑动
+1.UITableViewNest- Swift2.0
+
+- 使用Swift2.0
+- 编译器为Xcode7.0.1正式版,请用7.0以上的Xcode打开工程
+- 直接打开xcworkspace运行工程即可
+```
+swift 嵌套滑动，2.0的代码，稍微改动3.0直接可以使用
+```
+项目地址：https://github.com/maguangxiao/UITableViewNest
+</br>
+
+### 二、下拉刷新
