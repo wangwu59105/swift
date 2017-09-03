@@ -280,8 +280,16 @@ SwiftEventBus.post("someEventName")
 
 ### 十一、数据存储
 
-</br></br>
 
+1.Awesome Cache
+轻量级本地存储，类似Android的AChache
+```swift
+cache.setObject("Alex", forKey: "name", expires: .Never) // same as cache["name"] = "Alex"
+cache.setObject("Alex", forKey: "name", expires: .Seconds(2)) // name expires in 2 seconds
+cache.setObject("Alex", forKey: "name", expires: .Date(NSDate(timeIntervalSince1970: 1428364800))) // name expires on 4th of July 2015
+```
+项目地址：http://hao.jobbole.com/awesome-cache/
+</br></br>
 ### 十二、其它扩展
 1.TimedSilver
 这个工具类，没有多少人用到，个人开发上传上去的，对应的开源完整的项目
