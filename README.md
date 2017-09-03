@@ -373,6 +373,27 @@ extension UIView {
 ```
 项目地址：https://github.com/hilen/TSWeChat
 
+3.AESCrypt-ObjC
+aes 加密解密类，是ObjC的，直接swift混合调用。
+```
+#import "AESCrypt.h"
+
+Usage
+
+NSString *message = @"top secret message";
+NSString *password = @"p4ssw0rd";
+
+Encrypting
+
+NSString *encryptedData = [AESCrypt encrypt:message password:password];
+
+Decrypting
+
+NSString *message = [AESCrypt decrypt:encryptedData password:password];
+```
+项目地址：https://github.com/Gurpartap/AESCrypt-ObjC
+
+
 ### 二、线上开源
 
 
