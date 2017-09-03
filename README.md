@@ -282,7 +282,7 @@ SwiftEventBus.post("someEventName")
 
 
 1.Awesome Cache
-轻量级本地存储，类似Android的AChache
+轻量级本地存储，类似Android的ACache
 ```swift
 cache.setObject("Alex", forKey: "name", expires: .Never) // same as cache["name"] = "Alex"
 cache.setObject("Alex", forKey: "name", expires: .Seconds(2)) // name expires in 2 seconds
