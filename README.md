@@ -41,6 +41,19 @@ Timer.after(1.minute) {
 ```
 项目地址:https://github.com/radex/SwiftyTimer
 
+2.日期工具SwiftDate
+
+创建、比较 、加减
+
+```swift
+// Attempt to parse a string using a custom format
+let p_1 = "2016-01-05 23:30".date(format: .custom("yyyy-MM-dd HH:MM"))
+// Attempt to parse a valid ISO8601 string
+let p_2 = "2010-02-18T16.23334444".date(format: .iso8601Auto)
+```
+
+项目地址：https://github.com/malcommac/SwiftDate
+
 ### 二、音频
 1.SwiftySound
 播放音频的工具类，简单易用,稳定</br>
@@ -78,6 +91,60 @@ public enum HTTPMethod: String {
 }
 ```
 项目地址：https://github.com/Alamofire/Alamofire
+
+2.ReachabilitySwift
+
+网络状态判断
+
+```swift
+ 
+        do {
+            reachability = try Reachability.init()
+        } catch {
+            print("Unable to create Reachability")
+            return
+        }
+        
+        // 检测网络连接状态
+        if reachability.isReachable {
+            print("网络连接：可用")
+        } else {
+            print("网络连接：不可用")
+        }
+        
+        // 检测网络类型
+        if reachability.isReachableViaWiFi {
+            print("网络类型：Wifi")
+        } else if reachability.isReachableViaWWAN {
+            print("网络类型：移动网络")
+        } else {
+            print("网络类型：无网络连接")
+        }
+        
+        
+        // 网络可用或切换网络类型时执行
+        reachability.whenReachable = { reachability in
+            
+            // 判断网络状态及类型
+        }
+        
+        // 网络不可用时执行
+        reachability.whenUnreachable = { reachability in
+            
+            // 判断网络状态及类型
+        }
+        
+        do {
+            // 开始监听
+            try reachability.startNotifier()
+        } catch {
+            print("Unable to start notifier")
+        }
+```
+
+
+
+项目：https://github.com/ymsheng/ReachabilitySwift
 
 
 ### 五、图片处理
@@ -197,6 +264,23 @@ if let userName = json[0]["user"]["name"].string {
 }
 ```
 项目地址：https://github.com/SwiftyJSON/SwiftyJSON
+
+2. Ji
+
+   Ji (戟) is an XML/HTML parser for Swift
+
+```swift
+let xmlString = "<?xml version='1.0' encoding='UTF-8'?><note><to>Tove</to><from>Jani</from><heading>Reminder</heading><body>Don't forget me this weekend!</body></note>"
+let jiDoc = Ji(xmlString: xmlString)
+let bodyNode = jiDoc?.rootNode?.firstChildWithName("body")
+print("body: \(bodyNode?.content)") // body: Optional("Don\'t forget me this weekend!")
+```
+
+ 项目地址： https://github.com/honghaoz/Ji     
+
+  
+
+
 
 ### 八、界面布局
 1.SnapKit
@@ -344,6 +428,33 @@ extension UIView {
 ```
 项目地址：https://github.com/wangwu59105/swift/blob/master/CommonExtension.swift
 
+
+
+3.权限访问arek
+
+ios的权限管理
+
+```swift
+ let permission = ArekPhoto()
+            
+            permission.status { (status) in
+                switch status {
+                case .authorized:
+                    print("! ✅ !")
+                case .denied:
+                    print("! ⛔️ !" )
+                case .notDetermined:
+                    print("! 🤔 !" )
+                case .notAvailable:
+                    print("! 🚫 !" )
+                }
+            }
+```
+
+项目：https://github.com/ennioma/arek
+
+
+
 ## 完整的APP
 ### 一、高仿
 1.高仿爱鲜蜂 - Swift2.0
@@ -411,3 +522,19 @@ swift 嵌套滑动，2.0的代码，稍微改动3.0直接可以使用
 </br>
 
 ### 二、下拉刷新
+
+
+
+### 三、消息红点
+
+1.PPBadgeView
+
+![image](https://raw.githubusercontent.com/jkpang/PPBadgeView/master/Picture/PPBadgeView.gif)
+
+iOS Custom 
+Badge, Support UIView, UITabBarItem, UIBarButtonItem ,Support 
+Objective-C/Swift; iOS自定义Badge组件, 支持UIView, UITabBarItem, 
+UIBarButtonItem, 支持Objective-C/Swift
+
+项目地址：https://github.com/jkpang/PPBadgeView
+
