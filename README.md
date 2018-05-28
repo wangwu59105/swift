@@ -20,10 +20,10 @@
 
 </br>
 [Swift 第二章节完整APP]</br>
-[高仿系列](https://github.com/wangwu59105/swift#%E4%B8%80%E3%80%81%E9%AB%98%E4%BB%BF)、[线上开源](https://github.com/wangwu59105/swift#%E4%BA%8C%E3%80%81%E7%BA%BF%E4%B8%8A%E5%BC%80%E6%BA%90)
+[高仿系列](https://github.com/wangwu59105/swift#%E4%B8%80高仿系列)、[线上开源](https://github.com/wangwu59105/swift#%e4%ba%8c线上开源)
 
 [Swift 第三章个性化组建]</br>
-[嵌套滑动](https://github.com/wangwu59105/swift#%E4%B8%80嵌套滑动)、[下拉刷新](https://github.com/wangwu59105/swift#%E4%B8%80下拉刷新)、[消息红点](https://github.com/wangwu59105/swift#%E4%B8%80消息红点)
+[嵌套滑动](https://github.com/wangwu59105/swift#%E4%B8%80嵌套滑动)、[下拉刷新](https://github.com/wangwu59105/swift#%e4%ba%8c下拉刷新)、[消息红点](https://github.com/wangwu59105/swift#%e4%b8%89消息红点)
 
 ## 工具类
 ### 一、时间
