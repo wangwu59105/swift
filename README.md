@@ -16,14 +16,14 @@
 [UI界面布局](https://github.com/wangwu59105/swift#%e5%85%ab界面布局)、
 [加载框，弹窗](https://github.com/wangwu59105/swift#%e4%b9%9d加载框弹窗)、
 [广播通知](https://github.com/wangwu59105/swift#%e5%8d%81广播通知)、
-[数据存储](https://github.com/wangwu59105/swift#%e5%8d%81%e4%b8%80数据存储)、
-[其它扩展](https://github.com/wangwu59105/swift#%e5%8d%81%e4%ba%8c其它扩展)
+[数据存储](https://github.com/wangwu59105/swift#%e5%8d%81%e4%b8%80数据存储)、[文件操作](https://github.com/wangwu59105/swift#%e5%8d%81%e4%ba%8c文件操作)、[其它扩展](https://github.com/wangwu59105/swift#%E5%8D%81%E4%B8%89其它扩展)
+
 </br>
 [Swift 第二章节完整APP]</br>
 [高仿系列](https://github.com/wangwu59105/swift#%E4%B8%80高仿)、[线上开源](https://github.com/wangwu59105/swift#%e4%ba%8c线上开源)
 
 [Swift 第三章个性化组建]</br>
-[嵌套滑动](https://github.com/wangwu59105/swift#%E4%B8%80嵌套滑动)、[下拉刷新](https://github.com/wangwu59105/swift#%E4%B8%80下拉刷新)
+[嵌套滑动](https://github.com/wangwu59105/swift#%E4%B8%80嵌套滑动)、[下拉刷新](https://github.com/wangwu59105/swift#%E4%B8%80下拉刷新)、[消息红点](https://github.com/wangwu59105/swift#%E4%B8%80消息红点)
 
 ## 工具类
 ### 一、时间
@@ -278,9 +278,28 @@ print("body: \(bodyNode?.content)") // body: Optional("Don\'t forget me this wee
 
  项目地址： https://github.com/honghaoz/Ji     
 
-  
+3.HandyJSON
 
+HandyJSON是一个用于Swift语言中的JSON序列化/反序列化库。使用简单、代码量少
 
+```swift
+class BasicTypes: HandyJSON {
+    var int: Int = 2
+    var doubleOptional: Double?
+    var stringImplicitlyUnwrapped: String!
+
+    required init() {}
+}
+
+let jsonString = "{\"doubleOptional\":1.1,\"stringImplicitlyUnwrapped\":\"hello\",\"int\":1}"
+if let object = BasicTypes.deserialize(from: jsonString) {
+    print(object.int)
+    print(object.doubleOptional!)
+    print(object.stringImplicitlyUnwrapped)
+}
+```
+
+项目：https://github.com/alibaba/HandyJSON
 
 ### 八、界面布局
 1.SnapKit
@@ -312,16 +331,18 @@ class MyViewController: UIViewController {
 1.SVProgressHUD
 数据加载框，使用很宽泛的oc类库</br>
 ![SVProgressHUD](http://f.cl.ly/items/2G1F1Z0M0k0h2U3V1p39/SVProgressHUD.gif)
-</br>
+
+
+
 方便Swift开发使用请引入https://github.com/wangwu59105/swift/blob/master/SVProgressHUD.swift
 这个类配套使用
 项目地址：https://github.com/SVProgressHUD/SVProgressHUD
 
 2.ASToast
 Toast工具类，主要代码就一个类，对view的扩展
-</br>
 ![ASToast](https://raw.githubusercontent.com/abdullahselek/ASToast/master/images/astoast_image_title_text_toast.png)
-</br>
+
+
 
 ```
 self.view.makeToast(message: "Single text toast",
@@ -331,9 +352,8 @@ self.view.makeToast(message: "Single text toast",
 项目地址：https://github.com/abdullahselek/ASToast
 
 3.Popover
-Popover工具类，主要代码就一个类，对view的扩展，画出来的。view的上下弹出图层
-</br>
-![Popover](https://raw.githubusercontent.com/corin8823/Popover/master/ScreenShots/Screenshot.gif)
+Popover工具类，主要代码就一个类，对view的扩展，画出来的。view的上下弹出图层![Popover](https://raw.githubusercontent.com/corin8823/Popover/master/ScreenShots/Screenshot.gif)
+
 </br>
 
 ```swift
@@ -374,7 +394,33 @@ cache.setObject("Alex", forKey: "name", expires: .Date(NSDate(timeIntervalSince1
 ```
 项目地址：http://hao.jobbole.com/awesome-cache/
 </br></br>
-### 十二、其它扩展
+
+### 十二、文件操作
+
+1.文件操作查找Files
+
+简化操作
+
+```swift
+//遍历
+for file in try Folder(path: "MyFolder").files {
+    print(file.name)
+}
+//or
+Folder.home.makeSubfolderSequence(recursive: true).forEach { folder in
+    print("Name : \(folder.name), parent: \(folder.parent)")
+}
+//操作
+let folder = try Folder(path: "/users/john/folder")
+let file = try folder.createFile(named: "file.json")
+try file.write(string: "{\"hello\": \"world\"}")
+try file.delete()
+try folder.delete()
+```
+
+项目：https://github.com/JohnSundell/Files
+
+### 十三、其它扩展
 1.TimedSilver
 这个工具类，没有多少人用到，个人开发上传上去的，对应的开源完整的项目
 TSWeChat中使用到的，对很多组件进行的扩展，很强大，个人喜欢使用tabView
@@ -523,7 +569,37 @@ swift 嵌套滑动，2.0的代码，稍微改动3.0直接可以使用
 
 ### 二、下拉刷新
 
+1.MJRefresh
 
+OC 的下拉翻页扩展库。在swift中使用，桥接文件中加入
+
+```swift
+#import "MJRefresh.h"
+```
+
+使用
+
+```swift
+    //初始化上拉下拉
+    func mjRefreshUITabView(_ tabview : UITableView)  {
+        //加载 头 尾巴
+        tabview.mj_header = MJRefreshNormalHeader()
+        tabview.mj_footer =  MJRefreshAutoNormalFooter()
+        tabview.mj_header.setRefreshingTarget(self, refreshingAction:           #selector(headerRefresh))
+        tabview.mj_footer.setRefreshingTarget(self, refreshingAction: #selector(footerRefresh))
+    }
+    //响应方法
+     
+    @objc func headerRefresh() {
+        //刷新
+    }
+    
+    @objc func footerRefresh() {
+        //加载
+    }
+```
+
+项目：https://github.com/CoderMJLee/MJRefresh
 
 ### 三、消息红点
 
@@ -538,3 +614,18 @@ UIBarButtonItem, 支持Objective-C/Swift
 
 项目地址：https://github.com/jkpang/PPBadgeView
 
+四、换肤
+
+1.SwiftTheme
+
+更换皮肤  夜间模式   设置简单 使用方便。
+
+可以是代码设置  、页可以是集中plist文件、也可以是zip包
+
+```swift
+view.theme_backgroundColor = ["#FFF", "#000"]
+或者
+view.theme_backgroundColor = "Global.backgroundColor"
+```
+
+项目：https://github.com/jiecao-fm/SwiftTheme
