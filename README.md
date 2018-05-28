@@ -26,8 +26,8 @@
 </br>
 [Swift 第二章节完整APP]</br>
 
-[高仿项目](https://github.com/wangwu59105/swift#%E4%B8%80%E3%80%81高仿)、
-[线上开源](https://github.com/wangwu59105/swift#%E4%BA%8C%E3%80%81线上开源)
+[高仿项目](https://github.com/wangwu59105/swift#%E4%B8%80高仿)、
+[线上开源](https://github.com/wangwu59105/swift#%E4%BA%8C线上开源)
 
 [Swift 第三章个性化组建]</br>
 [嵌套滑动](https://github.com/wangwu59105/swift#%E4%B8%80嵌套滑动)、
