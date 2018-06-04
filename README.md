@@ -3,8 +3,7 @@
 在自己项目中使用到或者日常接触到的的swift类库，收录最简单，易用，稳定的，方便快速，高效开发
 
 ```
-最近android项目有点忙，更新会放慢，接下来一天更新一个最火通用组件，亲测后提交
-以组件为主，助理swift开发者
+亲测项目实用工具、助理swift开发者
 
 ```
 
@@ -510,6 +509,16 @@ ios的权限管理
 
 
 
+4.仿照java的集合类swift-algorithm-club
+
+福利：
+
+list  linklist tree map set 等   感觉应该是基于java的参考编写
+
+项目地址：https://github.com/raywenderlich/swift-algorithm-club
+
+
+
 ## 完整的APP
 ### 一、高仿
 1.高仿爱鲜蜂 - Swift2.0
@@ -623,7 +632,7 @@ UIBarButtonItem, 支持Objective-C/Swift
 
 项目地址：https://github.com/jkpang/PPBadgeView
 
-四、换肤
+### 四、换肤
 
 1.SwiftTheme
 
